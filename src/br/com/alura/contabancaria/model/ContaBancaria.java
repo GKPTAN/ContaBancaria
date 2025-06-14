@@ -3,7 +3,7 @@ package br.com.alura.contabancaria.model;
 public class ContaBancaria {
     private String nome;
     private String tipoDeConta;
-    private double saldo = 0.00;
+    protected double saldo = 0.00;
     private double emprestimo = 0.00;
     private boolean emprestimoDisponivel = true;
     public int option = 0;
